@@ -1,0 +1,32 @@
+body{
+    background-color:white
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0%; padding: 0%;width: 200px;background-color:pink;
+}
+li a{
+    display: block; padding: 8px 16px; background-color:gray;text-decoration: none;
+}
+li a:hover{
+    background-color:#555;color:white;
+}
+.active{
+    background-color: green;color: white;
+}
+a:hover:not(.active){
+    background-color:#555; color:white;
+}
+input[type="text"], select{
+    width: 100%; padding: 12px 20px;margin:8px 0px; border:1px solid #ccc; display:inline-block; border-radius: 4px;box-sizing: border-box;
+} 
+input[type=submit]{
+    width:100%; padding:14px 20px;margin:8px 0px; border-radius:4px;background-color: #4CAF50;color:white;border:none;cursor:pointer;
+}
+input[type=submit]:hover{
+    background-color:  #45a049;
+}
+div{
+    background-color:#f2f2f2; padding:20px; border-radius: 5px;
+}

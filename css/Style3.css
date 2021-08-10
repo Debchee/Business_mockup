@@ -1,0 +1,93 @@
+body{
+    background:rgba(255,255,255);
+}
+.nav_container{
+    display:flex; flex-direction: row; color:black;
+}
+.left-box{
+    display:flex; align-items: flex-start; flex:2;justify-content: flex-start; color:black;
+    /* border: 1px solid red;  */
+    padding: 10px 20px;
+}
+.left-box p{
+    text-decoration: underline; font-weight: bold;
+}
+.right-box{
+    display:flex; align-items: flex-end; flex: 2;justify-content: flex-end;
+    /* border: 1px solid red; */
+    color:black; padding: 10px 20px;
+}
+.box1{
+    display: flex; flex-direction: row; align-items: center; flex:4;justify-content: center; color:black; 
+}
+.box1 div{
+    /* border: 1px solid red;  */
+    padding: 10px 20px;
+}
+.content{
+    background:black; 
+    display: flex;flex-direction: column; align-items: center; justify-content: center; text-align: center; color:white;height: 450px;
+}
+.banner{
+    width: 100%; 
+}
+.write_up{
+    padding: 10px 60px; 
+    /* text-transform: uppercase; */
+}
+.write_up2{
+    padding: 10px 60px;
+}
+.content-buttom{
+    margin-bottom: 40px;
+}
+.contact1{
+    border: 1px solid rgb(245, 243, 243);margin-left:20px;margin-right:20px;padding: 10px 20px;
+}
+.content2{
+    display: flex; flex-direction: column;align-items: center;justify-content: center;color: white; margin-top: 50px;
+    background:url('https://images.unsplash.com/photo-1523443571261-671bddef4ecd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1365&q=80');
+    height: 450px;
+}
+.content3{
+    display: flex;flex-direction: column; align-items: center;justify-content: center;color:black; margin-top: 40px;
+}
+.pad_1{
+    padding: 20px;
+}
+
+
+.services_card {
+    border: 1px solid red;
+}
+.services_card_head {
+    height: 100px; width: 100%; background: rgb(209, 206, 206); margin-bottom: 20px;
+}
+.pad-1{
+    padding: 10px 90px; margin-right:20px;margin-top:30px;text-align: center;
+    /* background: grey; */
+}
+.pad-2{
+    padding: 10px 90px; margin-right: 20px;margin-top: 30px; text-align: center;
+    /* background: gray; */
+}
+.pad-3{
+    padding: 10px 90px; margin-right:20px;margin-top:30px;text-align: center;
+    /* background: gray; */
+}
+.g1{
+    background: gray; 
+}
+.g2{
+    background: gray;  
+}
+.g3{
+    background: gray; 
+}
+.content3_final{
+    display: flex; flex-direction: column;align-items: center;justify-content: center;text-align: center;margin-top: 30px;
+    background: gray; height: 300px;
+}
+.down{
+    margin-top:20px; border-radius: 0px;
+}

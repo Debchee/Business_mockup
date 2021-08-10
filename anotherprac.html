@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ANothee practice</title>
+        <link rel="stylesheet" href="./css/anothprac.css">
+    </head>
+    <body>
+    
+        <form>
+    
+            <fieldset>
+                <legend>Personaila</legend>
+            <label for="fmane">First Name:</label><br>
+            <input type="text" id="fname" name="fname" value="John" required><br><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="pwd" name="pwd"><br><br>
+            <label for="fav_color">Select your favorite color</label><br>
+            <input type="color" id="fav_color" name="fav_color" value="#ff4433"><br><br>
+            <label for="birthday">Birthday:</label><br>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="datemax">Enter a date before 01-01-2000:</label>
+            <input type="date" id="datemax" name="datemax"><br><br>
+            <label for="datemin">Enter a date after 02-11-2002</label>
+            <input type="date" id="datemin" name="datemin"><br><br>
+            <label for="message">Messsge:</label><br>
+            <textarea name="message" style="width: 2oopx; height: 70px;">Glad to have you</textarea><br><br>
+            <label for="appt">Select time:</label>
+            <input type="time" id="appt" name="appt"><br><br>
+            <input type="submit" id="submit">
+            <input type="reset"> 
+        </fieldset>
+    
+        </form>
+    </div>
+
+        <p>This is a practise onHTML forms</p>
+
+        <p>Choose your favourite programming language</p>
+
+        <form>
+            <input type="radio" id="HTML" name="fav_language" value="HTML">
+            <label for="HTML">HTML</label><br>
+            <input type="radio" id="CSS" name="fav_language" value="CSS">
+            <label for="CSS">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="javascript">
+            <label for="javascript">Javascript</label><br>
+        </form>
+
+        <h2> Checkboxes</h2>
+        <p>The <strong>input type="checkbox"</strong>defines a checkbox</p>
+        <form>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1">I have a Bike</label><br>
+            <input type="checkbox"id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Truck">
+            <label for="vehicle3">I have a truck</label><br><br>
+            <input type="Submit" value="Submit">
+        </form>
+
+        <h2>Select Cars</h2>
+        <p>The select element describes a drop-down list</p>
+        <form>
+            <label for="cars">Choose a car type:</label>
+            <select id="cars" name="cars" size="3" multiple>
+                <option value="volvo">Volvo</option>
+                <option value="Saars">Saars</option>
+                <option value="Audi">Audi</option>
+                <option value="Volkswagon">Volkswagon</option>
+            </select>
+            <input type="submit" id="submit">
+            
+        </form>
+        
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+        <form>
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Mozilla">
+                <option value="Internet Explorer">
+                <option value="Phoneix">
+            </datalist>
+            <input type="submit">
+        </form>
+
+       <ul>
+           <li><a class="active" href="#home">Home</a></li>
+           <li><a href="#news">News</a></li>
+           <li><a href="#contact">Contact</a></li>
+           <li><a href="#about">About</a></li>
+       </ul>
+
+       <div>
+           <form>
+               <label for="fname">First Name</label>
+               <input type="text" name="first name" id="fnmae" placeholder="Type your name">
+               <label for="lname">Last Name</label>
+               <input type="text" name="last name"id="lname"placeholder="Typeyour last name">
+               <label for="country">Country</label>
+               <select id="country" name="country">
+                   <option value="nigeria">Nigeria</option>
+                   <option value="australia">Australia</option>
+                   <option value="Niger">Niger</option>
+                   <option value="USA">USA</option>
+               </select>
+               <input type="submit" value="Submit">
+           </form>
+       </div>
+    </body>
+</html>
